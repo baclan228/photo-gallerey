@@ -1,0 +1,7 @@
+@media screen and (max-width: 896px) {
+	header{ display: block; position: fixed;}
+	.grid-menu{ margin-top: 100px; }
+	.left{ display: none; position: fixed; z-index: 10;}
+	.hide{ display: none; }
+	.center{ overflow: none; }
+}

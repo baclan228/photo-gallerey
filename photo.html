@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Photo</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/onclick.js"></script>
+</head>
+<body>
+	<div class="wrap">
+
+		<!-- header start -->
+		<header>
+			<div class="main">
+				<img onclick="show_left_menu()" src="ico/main.png" alt="main" id="main">
+			</div>
+		</header>
+		<!-- header end -->
+
+		<!-- start left -->
+		<div class="left">
+			<div class="left__avatar">
+				<img src="img/1.png" alt="Аватарка">
+				<div id="inst"></div>
+			</div>
+			<div class="left__name">
+				<h3>Kevin Abramson</h3>
+			</div>
+			<div class="left__files">
+				<h4>0 files</h4>
+			</div>
+			<div class="left__upload">
+				<button>UPLOAD</button>
+			</div>
+			<div class="left__search">
+				<input type="text" placeholder="Search files" id="search">
+			</div>
+			<div class="nav">
+				<div class="nav-menu">
+					<div class="nav-menu__title">
+						<h3>section</h3>
+					</div>
+					<div class="nav-menu__ul">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="photo.html">Photos</a></li>
+							<li><a href="#">Gif</a></li>
+							<li><a href="#">Videos</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer__social">
+					<img src="ico/icons8-instagram-48.png" alt="">
+					<img src="ico/icons8-pinterest-48.png" alt="">
+					<img src="ico/icons8-tumblr-48.png" alt="">
+					<img src="ico/icons8-twitter-в-квадрате-48.png" alt="">
+					<img src="ico/icons8-facebook-48.png" alt="">
+				</div>
+				<p> All rights reserved.<br>Copyright &copy; 2018<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script></p>
+			</div>
+		</div>
+		<!-- end left -->
+
+		<div class="mask" onclick="mask()"></div>
+
+		<!-- center start -->
+		<div class="center">
+			<div class="grid-menu">
+				
+			</div>
+			<div class="center__img">
+				<div class="box">
+					<h3>Summer</h3>
+					<img src="img/11.jpg">
+				</div>
+				<div class="box">
+					<h3>Tourism</h3>
+					<img src="img/16.jpg">
+				</div>
+				<div class="box">
+					<h3>nature</h3>
+					<img src="img/18.jpg">
+				</div>
+				<div class="box">
+					<h3>forest</h3>
+					<img src="img/3.jpg">
+				</div>
+				<div class="box">
+					<h3>animals</h3>
+					<img src="img/1.jpg">
+				</div>
+				<div class="box">
+					<h3>autumn</h3>
+					<img src="img/20.jpg">
+				</div>
+			</div>
+		</div>
+		<!-- center end -->
+	</div>
+</body>
+</html>

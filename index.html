@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/onclick.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<div class="main">
+				<img onclick="show_left_menu()" src="ico/main.png" alt="main" id="main">
+			</div>
+		</header>
+		<!-- start left -->
+		<div class="left">
+			<div class="left__avatar">
+				<img src="img/1.png" alt="Аватарка">
+				<div id="inst"></div>
+			</div>
+			<div class="left__name">
+				<h3>Kevin Abramson</h3>
+			</div>
+			<div class="left__files">
+				<h4>0 files</h4>
+			</div>
+			<div class="left__upload">
+				<button>UPLOAD</button>
+			</div>
+			<div class="left__search">
+				<input type="text" placeholder="Search files" id="search">
+			</div>
+			<div class="nav">
+				<div class="nav-menu">
+					<div class="nav-menu__title">
+						<h3>section</h3>
+					</div>
+					<div class="nav-menu__ul">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="photo.html">Photos</a></li>
+							<li><a href="#">Gif</a></li>
+							<li><a href="#">Videos</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer__social">
+					<img src="ico/icons8-instagram-48.png" alt="">
+					<img src="ico/icons8-pinterest-48.png" alt="">
+					<img src="ico/icons8-tumblr-48.png" alt="">
+					<img src="ico/icons8-twitter-в-квадрате-48.png" alt="">
+					<img src="ico/icons8-facebook-48.png" alt="">
+				</div>
+				<p> All rights reserved.<br>Copyright &copy; 2018<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script></p>
+			</div>
+		</div>
+		<!-- end left -->
+
+		<!-- start center -->
+		<div class="mask" onclick="mask()"></div>
+		<div class="center">
+			<div class="grid-menu">
+				<div class="grid-left">
+					<img onclick="show_left()" src="ico/left.png" alt="hide" id="right">
+				</div>
+				<div class="grid-right">
+					<img onclick="grid1()" src="ico/menu.png" alt="" id="grid">
+					<img onclick="grid2()" src="ico/menu2.png" alt="" id="grid">
+				</div>
+			</div>
+			<div class="center__img">
+				<div class="box">
+					<a href="view.html"><img src="img/1.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">100</span>
+						<span id="view">2500</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/2.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">100</span>
+						<span id="view">2500</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/3.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">100</span>
+						<span id="view">2500</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/4.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">100</span>
+						<span id="view">2500</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/5.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">100</span>
+						<span id="view">2500</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/6.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">100</span>
+						<span id="view">2500</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/7.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">100</span>
+						<span id="view">2500</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/8.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">100</span>
+						<span id="view">2500</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/9.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">0</span>
+						<span id="view">0</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/10.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">0</span>
+						<span id="view">0</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/11.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">0</span>
+						<span id="view">0</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/12.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">0</span>
+						<span id="view">0</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/13.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">0</span>
+						<span id="view">0</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/14.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">0</span>
+						<span id="view">0</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/15.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">0</span>
+						<span id="view">0</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/16.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">0</span>
+						<span id="view">0</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/17.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">0</span>
+						<span id="view">0</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+				<div class="box">
+					<a href="view.html"><img src="img/18.jpg" alt=""></a>
+					<div class="des">
+						<span id="dowload">0</span>
+						<span id="view">0</span>
+						<span id="date">10.02.2019</span>
+					</div>
+				</div>
+			</div>
+			<div class="load">
+				<button>Load</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

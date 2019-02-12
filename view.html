@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>View</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/onclick.js"></script>
+</head>
+<body>
+	<div class="wrap">
+		<header>
+			<div class="main">
+				<img onclick="show_left_menu()" src="ico/main.png" alt="main" id="main">
+			</div>
+		</header>
+		<!-- start left -->
+		<div class="left">
+			<div class="left__avatar">
+				<img src="img/1.png" alt="Аватарка">
+				<div id="inst"></div>
+			</div>
+			<div class="left__name">
+				<h3>Kevin Abramson</h3>
+			</div>
+			<div class="left__files">
+				<h4>0 files</h4>
+			</div>
+			<div class="left__upload">
+				<button>UPLOAD</button>
+			</div>
+			<div class="left__search">
+				<input type="text" placeholder="Search files" id="search">
+			</div>
+			<div class="nav">
+				<div class="nav-menu">
+					<div class="nav-menu__title">
+						<h3>section</h3>
+					</div>
+					<div class="nav-menu__ul">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="photo.html">Photos</a></li>
+							<li><a href="#">Gif</a></li>
+							<li><a href="#">Videos</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer">
+				<div class="footer__social">
+					<img src="ico/icons8-instagram-48.png" alt="">
+					<img src="ico/icons8-pinterest-48.png" alt="">
+					<img src="ico/icons8-tumblr-48.png" alt="">
+					<img src="ico/icons8-twitter-в-квадрате-48.png" alt="">
+					<img src="ico/icons8-facebook-48.png" alt="">
+				</div>
+				<p> All rights reserved.<br>Copyright &copy; 2018<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script></p>
+			</div>
+		</div>
+		<!-- end left -->
+
+		<div class="mask" onclick="mask()"></div>
+
+		<!-- start center -->
+		<div class="center">
+			<div class="grid-menu">
+				
+			</div>
+			<div class="center__view">
+				<img src="img/3.jpg" alt="">
+			</div>
+			<div class="center__view_descripsion">
+				<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus impedit et mollitia perspiciatis omnis assumenda, odio animi libero deserunt tempora beatae itaque voluptatem. Aut cupiditate eveniet doloribus voluptatibus. Veritatis, nisi?</span>
+				<span>Harum inventore voluptatem iure iste beatae autem placeat magnam magni fuga odit ipsa consequatur deserunt maxime distinctio molestias perspiciatis doloremque a voluptate necessitatibus in, odio omnis. Reiciendis facere perferendis fuga.</span>
+				<span>Iste magni, cupiditate? Eligendi aut illo quidem velit similique aperiam beatae maiores totam. Soluta reiciendis cumque ipsa! Quae ea eos, corporis in odio blanditiis, minus, maxime, dolor quis quo beatae.</span></p>
+			</div>
+		</div>
+		<!-- end center -->
+	</div>
+</body>
+</html>
